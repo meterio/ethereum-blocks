@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/moonbeam-blocks",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ simonzg/moonbeam-blocks --access-token [access-token]",
     "create-moonbeam": "graph create --node http://localhost:8020/ blocklytics/moonbeam-blocks",
     "remove-moonbeam": "graph remove --node http://localhost:8020/ blocklytics/moonbeam-blocks",
     "deploy-moonbeam": "graph deploy --node http://localhost:8020/ --ipfs http://ipfs.voltswap.finance:5001 blocklytics/moonbeam-blocks",
